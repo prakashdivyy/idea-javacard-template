@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project basedir="." name="CAP Builder">
-    <target name="Build CAP">
+    <target name="build">
         <taskdef name="javacard" classname="pro.javacard.ant.JavaCard" classpath="./lib/ant-javacard.jar"/>
         <javacard>
             <cap jckit="./lib/jc222_kit" aid="F3600102030401" output="./out/HelloWorld.cap" sources="src/hello">
